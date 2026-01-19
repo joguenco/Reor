@@ -1,4 +1,4 @@
-package handlers
+package ping
 
 import "github.com/gofiber/fiber/v2"
 
