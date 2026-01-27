@@ -20,7 +20,7 @@ type Receipt struct {
 
 	TaxpayerID         uint
 	AccessKey          string    `gorm:"uniqueIndex;not null"`
-	TypeReceipt        string    `gorm:"not null"`
+	Type               string    `gorm:"not null"`
 	Establishment      string    `gorm:"not null"`
 	EmissionPoint      string    `gorm:"not null"`
 	Sequence           string    `gorm:"not null"`
